@@ -1,9 +1,16 @@
 * {
   font-size: 30px;
+  margin-left: 50px;
 }
 strong {
   color: chocolate;
 }
 li {
   margin-bottom: 20px;
+}
+ol li {
+  color: darkgreen;
+}
+ol {
+  color: crimson;
 }
