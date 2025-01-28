@@ -11,6 +11,31 @@ li {
 ol li {
   color: darkgreen;
 }
-ol {
-  color: crimson;
+@media (max-width: 1000px) {
+  * {
+    background-color: bisque;
+    font-size: 20px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  li {
+    margin-top: 20px;
+    text-align: center;
+  }
+  strong {
+    text-align: center;
+  }
+  title {
+    text-align: center;
+    font-size: 50px;
+    color: crimson;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  h1 {
+    text-align: center;
+    color: fuchsia;
+    font-size: 50px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
 }
